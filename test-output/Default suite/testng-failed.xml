@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.employee.EmployeeTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="verifyByAddingUserDetails"/>
+          <include name="afterMethod"/>
+          <include name="verifyUploadingMoreThan1MbFile"/>
+          <include name="tearDown"/>
+          <include name="verifyBySearchingExistingEmployee"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.employee.EmployeeTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

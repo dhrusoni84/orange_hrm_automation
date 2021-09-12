@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-12T05:55:37Z" name="Command line suite" finished-at="2021-09-12T05:58:10Z" duration-ms="153321">
+    <groups>
+    </groups>
+    <test started-at="2021-09-12T05:55:37Z" name="Command line test" finished-at="2021-09-12T05:58:10Z" duration-ms="153321">
+      <class name="tests.employee.EmployeeTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.employee.EmployeeTest@4cb40e3b]" started-at="2021-09-12T05:55:36Z" name="beforeSuite" finished-at="2021-09-12T05:55:37Z" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.employee.EmployeeTest@4cb40e3b]" started-at="2021-09-12T05:55:37Z" name="setUp" finished-at="2021-09-12T05:56:36Z" duration-ms="59540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.employee.EmployeeTest@4cb40e3b]" started-at="2021-09-12T05:56:36Z" name="beforeMethod" finished-at="2021-09-12T05:56:36Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyByAddingUserDetails()[pri:1, instance:tests.employee.EmployeeTest@4cb40e3b]" started-at="2021-09-12T05:56:36Z" name="verifyByAddingUserDetails" finished-at="2021-09-12T05:57:04Z" duration-ms="27311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByAddingUserDetails -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.employee.EmployeeTest@4cb40e3b]" started-at="2021-09-12T05:57:04Z" name="afterMethod" finished-at="2021-09-12T05:57:04Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyByAddingUserDetails status=SUCCESS method=EmployeeTest.verifyByAddingUserDetails()[pri:1, instance:tests.employee.EmployeeTest@4cb40e3b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.employee.EmployeeTest -->
+      <class name="tests.login.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.login.LoginTest@41b1f51e]" started-at="2021-09-12T05:57:04Z" name="setUp" finished-at="2021-09-12T05:58:07Z" duration-ms="62930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login.LoginTest@41b1f51e]" started-at="2021-09-12T05:58:07Z" name="beforeMethod" finished-at="2021-09-12T05:58:07Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyInvalidLoginAttempt()[pri:1, instance:tests.login.LoginTest@41b1f51e]" started-at="2021-09-12T05:58:07Z" name="verifyInvalidLoginAttempt" finished-at="2021-09-12T05:58:10Z" duration-ms="2593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLoginAttempt -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.login.LoginTest@41b1f51e]" started-at="2021-09-12T05:58:10Z" name="afterMethod" finished-at="2021-09-12T05:58:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidLoginAttempt status=SUCCESS method=LoginTest.verifyInvalidLoginAttempt()[pri:1, instance:tests.login.LoginTest@41b1f51e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.login.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

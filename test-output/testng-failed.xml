@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [OrangeHRM]" guice-stage="DEVELOPMENT">
+  <parameter name="node" value="local"/>
+  <parameter name="browser" value="chrome-headless"/>
+  <test thread-count="5" parallel="classes" name="EmployeeFeature(failed)">
+    <classes>
+      <class name="tests.employee.EmployeeTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="verifyUploadingMoreThan1MbFile"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.employee.EmployeeTest -->
+    </classes>
+  </test> <!-- EmployeeFeature(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->

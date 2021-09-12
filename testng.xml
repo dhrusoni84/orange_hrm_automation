@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM" parallel="classes">
+	<!-- Parameters -->
+	<parameter name="node" value="local" />
+	<parameter name="browser" value="chrome" />
+	<!-- browser value can be : chrome ,chrome-headless,ie ,firefox -->
+	<test name="LoginFeature">
+		<classes>
+			<class name="tests.login.LoginTest"/>
+		</classes>
+	</test>
+	<!-- Test -->
+	<test name="EmployeeFeature">
+		<classes>
+			<class name="tests.employee.EmployeeTest"/>
+		</classes>
+	</test>
+	<!-- Test -->
+</suite>
+<!-- Suite -->
