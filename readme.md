@@ -1,6 +1,6 @@
 # Orange HRM Automation
 
-## Includes TestNg, Selenium webdriver Java, Allure Reporting
+# Includes TestNg, Selenium webdriver Java, Allure Reporting, Page object model pattern
 
 ## Folder Struture :
 
