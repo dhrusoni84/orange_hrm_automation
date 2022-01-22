@@ -1,0 +1,1 @@
+{"uuid":"725f2190-d2e6-42b8-903c-4f180ab061fa","name":"tests.quiz.QuizTest","children":["45f61e61-e3ce-4668-b2a4-9211a7adab31"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1642860345863,"stop":1642860384993}],"afters":[],"links":[],"start":1642860345844,"stop":1642860393543}

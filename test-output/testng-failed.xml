@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [OrangeHRM]" guice-stage="DEVELOPMENT">
-  <parameter name="node" value="local"/>
-  <parameter name="browser" value="chrome-headless"/>
-  <test thread-count="5" parallel="classes" name="EmployeeFeature(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.employee.EmployeeTest">
+      <class name="tests.quiz.QuizTest">
         <methods>
           <include name="beforeSuite"/>
           <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="verifyUploadingMoreThan1MbFile"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="loginToTheQuizDragAndDrop"/>
         </methods>
-      </class> <!-- tests.employee.EmployeeTest -->
+      </class> <!-- tests.quiz.QuizTest -->
     </classes>
-  </test> <!-- EmployeeFeature(failed) -->
-</suite> <!-- Failed suite [OrangeHRM] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

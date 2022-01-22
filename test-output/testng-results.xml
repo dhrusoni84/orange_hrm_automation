@@ -1,79 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-12T11:12:26Z" name="OrangeHRM" finished-at="2021-09-12T11:13:51Z" duration-ms="85278">
+  <suite started-at="2022-01-22T14:11:12Z" name="Default suite" finished-at="2022-01-22T14:11:42Z" duration-ms="29797">
     <groups>
     </groups>
-    <test started-at="2021-09-12T11:12:26Z" name="LoginFeature" finished-at="2021-09-12T11:12:58Z" duration-ms="32038">
-      <class name="tests.login.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:26Z" name="setUp" finished-at="2021-09-12T11:12:48Z" duration-ms="21563" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[local]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:48Z" name="beforeMethod" finished-at="2021-09-12T11:12:48Z" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyInvalidLoginAttempt()[pri:1, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:48Z" name="verifyInvalidLoginAttempt" finished-at="2021-09-12T11:12:51Z" duration-ms="3205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidLoginAttempt -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:51Z" name="afterMethod" finished-at="2021-09-12T11:12:51Z" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyInvalidLoginAttempt status=SUCCESS method=LoginTest.verifyInvalidLoginAttempt()[pri:1, instance:tests.login.LoginTest@2a2c13a8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:52Z" name="beforeMethod" finished-at="2021-09-12T11:12:52Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyValidLoginAttempt()[pri:2, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:52Z" name="verifyValidLoginAttempt" finished-at="2021-09-12T11:12:58Z" duration-ms="6144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyValidLoginAttempt -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:58Z" name="afterMethod" finished-at="2021-09-12T11:12:58Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyValidLoginAttempt status=SUCCESS method=LoginTest.verifyValidLoginAttempt()[pri:2, instance:tests.login.LoginTest@2a2c13a8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.login.LoginTest@2a2c13a8]" started-at="2021-09-12T11:12:58Z" name="tearDown" finished-at="2021-09-12T11:12:58Z" duration-ms="578" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.login.LoginTest -->
-    </test> <!-- LoginFeature -->
-    <test started-at="2021-09-12T11:12:58Z" name="EmployeeFeature" finished-at="2021-09-12T11:13:51Z" duration-ms="53068">
-      <class name="tests.employee.EmployeeTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:12:26Z" name="beforeSuite" finished-at="2021-09-12T11:12:26Z" duration-ms="62" status="PASS">
+    <test started-at="2022-01-22T14:11:12Z" name="Default test" finished-at="2022-01-22T14:11:42Z" duration-ms="29797">
+      <class name="tests.quiz.QuizTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.quiz.QuizTest@5a7005d]" started-at="2022-01-22T14:11:12Z" name="beforeSuite" finished-at="2022-01-22T14:11:12Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:12:58Z" name="setUp" finished-at="2021-09-12T11:13:09Z" duration-ms="10756" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:tests.quiz.QuizTest@5a7005d]" started-at="2022-01-22T14:11:12Z" name="setUp" finished-at="2022-01-22T14:11:36Z" duration-ms="23539" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,87 +27,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:09Z" name="beforeMethod" finished-at="2021-09-12T11:13:09Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.quiz.QuizTest@5a7005d]" started-at="2022-01-22T14:11:36Z" name="beforeMethod" finished-at="2022-01-22T14:11:36Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyByAddingUserDetails()[pri:1, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:09Z" name="verifyByAddingUserDetails" finished-at="2021-09-12T11:13:24Z" duration-ms="15157" status="PASS">
+        <test-method signature="hotSpotBanana()[pri:0, instance:tests.quiz.QuizTest@5a7005d]" started-at="2022-01-22T14:11:36Z" name="hotSpotBanana" finished-at="2022-01-22T14:11:42Z" duration-ms="5736" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyByAddingUserDetails -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:24Z" name="afterMethod" finished-at="2021-09-12T11:13:24Z" duration-ms="1" status="PASS">
+        </test-method> <!-- hotSpotBanana -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.quiz.QuizTest@5a7005d]" started-at="2022-01-22T14:11:42Z" name="afterMethod" finished-at="2022-01-22T14:11:42Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyByAddingUserDetails status=SUCCESS method=EmployeeTest.verifyByAddingUserDetails()[pri:1, instance:tests.employee.EmployeeTest@3ddeaa5f] output={null}]]]>
+                <![CDATA[[TestResult name=hotSpotBanana status=SUCCESS method=QuizTest.hotSpotBanana()[pri:0, instance:tests.quiz.QuizTest@5a7005d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:24Z" name="beforeMethod" finished-at="2021-09-12T11:13:24Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyByUploadingInvalidExtensionPhotograph()[pri:2, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:24Z" name="verifyByUploadingInvalidExtensionPhotograph" finished-at="2021-09-12T11:13:29Z" duration-ms="4474" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyByUploadingInvalidExtensionPhotograph -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:29Z" name="afterMethod" finished-at="2021-09-12T11:13:29Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyByUploadingInvalidExtensionPhotograph status=SUCCESS method=EmployeeTest.verifyByUploadingInvalidExtensionPhotograph()[pri:2, instance:tests.employee.EmployeeTest@3ddeaa5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:29Z" name="beforeMethod" finished-at="2021-09-12T11:13:29Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyUploadingMoreThan1MbFile()[pri:3, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:29Z" name="verifyUploadingMoreThan1MbFile" finished-at="2021-09-12T11:13:47Z" duration-ms="17708" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUploadingMoreThan1MbFile -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:47Z" name="afterMethod" finished-at="2021-09-12T11:13:47Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyUploadingMoreThan1MbFile status=SUCCESS method=EmployeeTest.verifyUploadingMoreThan1MbFile()[pri:3, instance:tests.employee.EmployeeTest@3ddeaa5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:47Z" name="beforeMethod" finished-at="2021-09-12T11:13:47Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="verifyBySearchingExistingEmployee()[pri:4, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:47Z" name="verifyBySearchingExistingEmployee" finished-at="2021-09-12T11:13:51Z" depends-on-methods="tests.employee.EmployeeTest.verifyByAddingUserDetails" duration-ms="4182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBySearchingExistingEmployee -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:51Z" name="afterMethod" finished-at="2021-09-12T11:13:51Z" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyBySearchingExistingEmployee status=SUCCESS method=EmployeeTest.verifyBySearchingExistingEmployee()[pri:4, instance:tests.employee.EmployeeTest@3ddeaa5f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.employee.EmployeeTest@3ddeaa5f]" started-at="2021-09-12T11:13:51Z" name="tearDown" finished-at="2021-09-12T11:13:51Z" duration-ms="715" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.employee.EmployeeTest -->
-    </test> <!-- EmployeeFeature -->
-  </suite> <!-- OrangeHRM -->
+      </class> <!-- tests.quiz.QuizTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

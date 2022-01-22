@@ -3,18 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.employee.EmployeeTest">
+      <class name="tests.quiz.QuizTest">
         <methods>
           <include name="beforeSuite"/>
           <include name="beforeMethod"/>
-          <include name="verifyByAddingUserDetails"/>
-          <include name="afterMethod"/>
-          <include name="verifyUploadingMoreThan1MbFile"/>
-          <include name="tearDown"/>
-          <include name="verifyBySearchingExistingEmployee"/>
           <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="loginToTheQuizDragAndDrop"/>
         </methods>
-      </class> <!-- tests.employee.EmployeeTest -->
+      </class> <!-- tests.quiz.QuizTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

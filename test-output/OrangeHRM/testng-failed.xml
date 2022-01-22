@@ -1,20 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [OrangeHRM]" guice-stage="DEVELOPMENT">
-  <parameter name="node" value="local"/>
-  <parameter name="browser" value="chrome-headless"/>
-  <test thread-count="5" parallel="classes" name="EmployeeFeature(failed)">
+<suite thread-count="4" parallel="tests" name="Failed suite [OrangeHRM]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="LoginFeature1(failed)">
+    <parameter name="browser" value="re"/>
     <classes>
-      <class name="tests.employee.EmployeeTest">
+      <class name="tests.login.LoginTest">
         <methods>
           <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="verifyUploadingMoreThan1MbFile"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="verifyValidLoginAttempt"/>
         </methods>
-      </class> <!-- tests.employee.EmployeeTest -->
+      </class> <!-- tests.login.LoginTest -->
     </classes>
-  </test> <!-- EmployeeFeature(failed) -->
+  </test> <!-- LoginFeature1(failed) -->
+  <test thread-count="4" parallel="tests" name="LoginFeature(failed)">
+    <parameter name="browser" value="re"/>
+    <classes>
+      <class name="tests.login.LoginTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="verifyValidLoginAttempt"/>
+        </methods>
+      </class> <!-- tests.login.LoginTest -->
+    </classes>
+  </test> <!-- LoginFeature(failed) -->
+  <test thread-count="4" parallel="tests" name="LoginFeature2(failed)">
+    <parameter name="browser" value="re"/>
+    <classes>
+      <class name="tests.login.LoginTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="verifyValidLoginAttempt"/>
+        </methods>
+      </class> <!-- tests.login.LoginTest -->
+    </classes>
+  </test> <!-- LoginFeature2(failed) -->
 </suite> <!-- Failed suite [OrangeHRM] -->
